@@ -1,3 +1,15 @@
+# How To Set Up `nvm`
+
+## Linux
+
+To install nvm (https://github.com/nvm-sh/nvm), run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash`.
+
+Restart terminal or run `source ~/.bashrc`.
+
+Install Node.js by running `nvm install <version (e.g., 20.16.0)`.
+
+## Windows
+
 Due to error in cloning Git repository Node Version Manager on Windows, use a combination of PowerShell, Windows Subsystem for Linux, and Git Bash.
 
 In PowerShell, run `wsl --install`.
